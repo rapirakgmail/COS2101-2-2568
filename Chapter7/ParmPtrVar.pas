@@ -1,7 +1,6 @@
 type
   PInt = ^Integer;
 
-
 procedure PointerPassByValue(P: Pint);
 begin
   writeln( #9,'A1.P= ', p^ );
